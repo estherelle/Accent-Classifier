@@ -6,7 +6,6 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import numpy as np
 
-
 # from the accent.gmu website, pass in list of languages to scrape mp3 files and save them to disk
 def mp3getter(lst):
     for j in range(len(lst)):
